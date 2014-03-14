@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Jun's Burg]]></title>
-  <link href="http://wilsonlj.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Life | Jun's Burg]]></title>
+  <link href="http://wilsonlj.github.io/blog/categories/life/atom.xml" rel="self"/>
   <link href="http://wilsonlj.github.io/"/>
   <updated>2014-03-14T14:13:09+01:00</updated>
   <id>http://wilsonlj.github.io/</id>
@@ -29,15 +29,6 @@
 <p>其实这篇只是想测试下中文题目，而且前一篇已经证明测试通过了。。对着竖屏的Sublime、在机械键盘上敲着不管是文字还是代码，完全停不下来，尤其是文字，对于擅长思（fa）辨（dai）人士来说，码一下午就是做了一下午的手指马杀鸡。说得博客人人必备一样，但奇怪的是高中时代博客风靡，人人都写个msn blog，我在观望；到了社交时代，人人写日志，天天刷微博，我还是看看为主。有了自己的独立博客，反而开始瞎哔哔了（虽然早就开始在evernote里随便写点，但介于evernote简（chou）单（lou）的界面，每次不会超过两行）。或许是有思考有东西写了；又或许是感觉有属于自己的独立博客而不是从大流的俗物，更像是自己的一个品牌；亦或是一直在学习、阅读、输入，是该有点输出了，传播思考、价值（即使是垃圾信息），否则人类怎么进步？！反正，贱人就是矫情。</p>
 
 <p>以上。我的披萨好了。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[不要Hello World]]></title>
-    <link href="http://wilsonlj.github.io/blog/2014/03/13/hello-world/"/>
-    <updated>2014-03-13T17:34:40+01:00</updated>
-    <id>http://wilsonlj.github.io/blog/2014/03/13/hello-world</id>
-    <content type="html"><![CDATA[<p>捣鼓了半天，Octopress这玩意儿还是挺蛋疼的。。没感觉比自己写省力多少，每次还要generate和deploy，再研究研究。。</p>
 ]]></content>
   </entry>
   

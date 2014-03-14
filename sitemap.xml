@@ -2,19 +2,23 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://wilsonlj.github.io/blog/2014/03/13/hello-world/</loc>
-        <lastmod>2014-03-13T18:17:43+01:00</lastmod>
+        <lastmod>2014-03-14T12:13:40+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://wilsonlj.github.io/blog/2014/03/14/coming-again/</loc>
+        <lastmod>2014-03-14T13:49:39+01:00</lastmod>
     </url>
     <url>
         <loc>http://wilsonlj.github.io/about/</loc>
-        <lastmod>2014-03-13T18:21:07+01:00</lastmod>
+        <lastmod>2014-03-14T14:12:59+01:00</lastmod>
     </url>
     <url>
         <loc>http://wilsonlj.github.io/blog/archives/</loc>
-        <lastmod>2014-03-13T18:17:43+01:00</lastmod>
+        <lastmod>2014-03-14T13:49:39+01:00</lastmod>
     </url>
     <url>
         <loc>http://wilsonlj.github.io/</loc>
-        <lastmod>2014-03-13T18:17:43+01:00</lastmod>
+        <lastmod>2014-03-14T13:49:39+01:00</lastmod>
     </url>
     <url>
         <loc>http://wilsonlj.github.io/robots.txt</loc>
