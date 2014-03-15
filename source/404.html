@@ -1,0 +1,14 @@
+---
+layout: page
+title: OOPS! 找错地方了？
+footer: false
+---
+<p>要么你找错了，要么我写错了。你猜？</p>
+<section id="details"></section>
+<div id="blog-archives" class="missing">
+{% for post in site.posts limit: 5 %}
+<article>
+  {% include archive_post.html %}
+</article>
+{% endfor %}
+</div>

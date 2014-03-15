@@ -1,0 +1,15 @@
+$footer-construction: hsl(0.00, 0.00%, 6.27%);
+
+// Footer
+body > footer {
+  overflow: hidden;
+  p {
+    margin-bottom: 0;
+  }
+  @include border-bottom-radius(0px);
+  p span.theme-version {
+    float: right;
+    color: #9C9EA2;
+  }
+  @include single-box-shadow(#000, 1px, 3px, 5px)
+}
