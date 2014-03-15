@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Jun von Liu]]></title>
+  <title><![CDATA[Jun's Burg]]></title>
   <link href="http://wilsonlj.github.io/atom.xml" rel="self"/>
   <link href="http://wilsonlj.github.io/"/>
-  <updated>2014-03-15T07:42:17+01:00</updated>
+  <updated>2014-03-15T16:59:13+01:00</updated>
   <id>http://wilsonlj.github.io/</id>
   <author>
     <name><![CDATA[Jun Liu]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[编译随手摘]]></title>
+    <link href="http://wilsonlj.github.io/blog/2014/03/15/compiler/"/>
+    <updated>2014-03-15T15:43:08+01:00</updated>
+    <id>http://wilsonlj.github.io/blog/2014/03/15/compiler</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="cp">#include &lt;iostream&gt;</span>
+</span><span class='line'><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">int</span> <span class="n">main</span><span class="p">()</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="kt">bool</span> <span class="n">b</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">switch</span> <span class="p">(</span><span class="kc">false</span><span class="p">)</span>
+</span><span class='line'>    <span class="p">{</span>
+</span><span class='line'>        <span class="k">case</span> <span class="kc">true</span><span class="o">:</span>
+</span><span class='line'>            <span class="kt">int</span> <span class="n">ival</span><span class="p">;</span>
+</span><span class='line'>            <span class="k">break</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">case</span> <span class="kc">false</span><span class="o">:</span>
+</span><span class='line'>            <span class="n">ival</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+</span><span class='line'>            <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">ival</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<!--more-->
+
+
+<p>来自知乎的一问，简单来说就是编译时该声明定义的都做了，运行时再赋值，所以此处能正常输出，否则若<code>//int ival</code>、<code>string ival</code>、互换顺序都会报错，编译小白看完答案只能默默点赞，回去恶补编译原理，以此立志。</p>
+
+<p>这不是今天的重点，而是想讨论学习、努力、兴趣和聪明。Linkedin和GitHub随手一刷，几个女程序员简直就是逆天，清华、CMU、Cornell，MSRA、Linkedin、Hulu、Blackstone各种实习，110+的托福，码起代码也毫不含糊，之前还玩ACM，Matrix67上的题10分钟一道，再回望那些拿Google、Facebook offer的温拿们也都是算法人才（都经过OJ和leetcode历练），才能达到顶尖IT公司对人才“聪明”的要求。大家都在找“聪明”的人，到底什么是聪明？最简单的量化标准是智商，但智商这种东西一不靠谱二不能强求，大多数人的智商在同一个层次上。作为凡人，需要的是更稳定更加系统的理论，那些可以复制的经验。方法论我觉得也不合适，同一个方法给同样智商的人出来的效果肯定也不同。在我这个有限的特征选择里，就只剩下努力和兴趣了，那一个人会为什么努力？假设反复做一件事没有正反馈或者永远收益极低，你还会有坚持努力吗？因此努力必须有正反馈或者让你在挫败中还能坚持下来的理由，我们称之为动机。那么一个人没有动机或者没有正反馈那么他就不会坚持在某方面的成长，那么努力的人一定是有他的动机或者只是他擅长做这件事正反馈比较大而已。那兴趣算什么？我觉得放在正反馈里比较合适，比如成绩是种正反馈，资产是种正反馈，积分是种正反馈，而兴趣给你精神上的正反馈。那么要想积极向上，一定需要动机或者正反馈，而动机这种东西不是你主观想象出来的，更多是环境被动给你的，你能做的就是找到正反馈，简而言之就是你擅长或者你乐于做得事情。这种挖掘需要机缘，需要经历，需要具有广度的体验，或许才能发现属于你的专长或者爱好（臆想牛人只是更早的发现了自己的兴趣或者获得了正反馈）。如果你生活安逸（没有动机），思想从众（没有即使只有负反馈也还能保持的兴趣)，表现平平（没有正反馈），那么大多数人也不会努力提升自己了。拿自己为例，小时候表型平平，在考满分有玩具（动机）的刺激下，努力学习发现数学还不错（出现正反馈），开始了在数学上的努力使得大学前生涯还算不错。大学开始了到了一种没啥目标没啥兴趣没啥正反馈的混吃等死状态，学习也好玩儿也好，都不是努力，只是让自己看得下去而已，所以现在必须找出点正反馈努力起来。看过这么多行业种种、社会阶层再分析自身，还是觉得计算机最适合自己，提升为兴趣，突然感觉很多以前一看就头大的泛函分析、SVM也没那么复杂而无用了，多看两遍坚持下来还是能够理解（因为大学很多内容毕竟不是一眼就能看懂的，所以说要选择适合自己的专业，或者开个好头有点正反馈），视野瞬间开阔了，不再那么迷茫，需要的只是时间和坚持来弥补逝去的徘徊。</p>
+
+<p>码了这么多，只是想说，以后这里就是个以技术经验分享为主的空间了！描述问题和解决方法的过程本身能提高对问题的理解和文字表达能力，也希望如果能给别人一些借鉴那更好了。作为不推广、不盈利的私人博客，也只有有价值或者技术含量的帖子才会被人发现，比如温拿的人生思考、美女的旅游经验和照片、技术贴（包括计算机科学，编程技术，刷机贴膜）。即使没有来访者的正反馈，也要靠兴趣坚持下去（每天commit到Github上就像升级一样也算正反馈了，强迫症患者的最爱）。</p>
+
+<p>Heureka！// 你他喵总是没头没脑没逻辑么！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Coming Again]]></title>
