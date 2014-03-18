@@ -9,29 +9,7 @@
   <meta name="author" content="Jun Liu">
 
   
-  <meta name="description" content="1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-#include &lt;iostream&gt;
-using namespace std; int main()
-{ bool b = false; switch (false) { case &hellip;">
+  <meta name="description" content="趁着放假有闲暇赶紧把leetcode刷一下，原计划第一遍C++第二遍Java第三遍Python，鉴于网上leetcode答案已经太多了我就不贴了，但做到这道翻转字符串，在C++下痛苦地用着string终于AC完后忍不住拿出Python，十秒钟思考了下然后一句话未测试直接AC。。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -52,58 +30,14 @@ using namespace std; int main()
 
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://wilsonlj.github.io/" />
-<meta property="og:description" content="1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-#include &lt;iostream&gt;
-using namespace std; int main()
-{ bool b = false; switch (false) { case &hellip;" />
+<meta property="og:description" content="趁着放假有闲暇赶紧把leetcode刷一下，原计划第一遍C++第二遍Java第三遍Python，鉴于网上leetcode答案已经太多了我就不贴了，但做到这道翻转字符串，在C++下痛苦地用着string终于AC完后忍不住拿出Python，十秒钟思考了下然后一句话未测试直接AC。。 &hellip;" />
 
 <meta property="og:site_name" content="http://wilsonlj.github.io" />
 <meta property="article:author" content="https://plus.google.com/114787528537231301324">
 
 
 
-<meta itemprop="description" content="1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-#include &lt;iostream&gt;
-using namespace std; int main()
-{ bool b = false; switch (false) { case &hellip;" />
+<meta itemprop="description" content="趁着放假有闲暇赶紧把leetcode刷一下，原计划第一遍C++第二遍Java第三遍Python，鉴于网上leetcode答案已经太多了我就不贴了，但做到这道翻转字符串，在C++下痛苦地用着string终于AC完后忍不住拿出Python，十秒钟思考了下然后一句话未测试直接AC。。 &hellip;" />
 
 <!-- Combine multiple fonts into one request -->
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic|Patua+One|Yanone+Kaffeesatz" rel="stylesheet" type="text/css">
@@ -146,6 +80,51 @@ using namespace std; int main()
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/18/leetcode/">论多种范式语言的重要性</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-18T18:28:33+01:00" pubdate data-updated="true">Mar 18<span>th</span>, 2014</time>
+        
+         | <a href="/blog/2014/03/18/leetcode/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>趁着放假有闲暇赶紧把leetcode刷一下，原计划第一遍C++第二遍Java第三遍Python，鉴于网上leetcode答案已经太多了我就不贴了，但做到这道<a href="http://oj.leetcode.com/problems/reverse-words-in-a-string/">翻转字符串</a>，在C++下痛苦地用着string终于AC完后忍不住拿出Python，十秒钟思考了下然后一句话未测试直接AC。。所以还是术页有专攻的好，即能加速程序员的思考，然后也能用元编程的方法提高程序本身的性能，分层的结合果然是计算机结构设计的万金油。</p>
+
+<p>最后奉上代码：</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="s">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">)[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="n">x</span><span class="o">!=</span><span class="s">&#39;&#39;</span><span class="p">])</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
