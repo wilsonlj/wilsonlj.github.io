@@ -4,7 +4,7 @@
   <title><![CDATA[Jun's Burg]]></title>
   <link href="http://wilsonlj.github.io/atom.xml" rel="self"/>
   <link href="http://wilsonlj.github.io/"/>
-  <updated>2014-03-26T12:31:20+01:00</updated>
+  <updated>2014-03-26T12:35:03+01:00</updated>
   <id>http://wilsonlj.github.io/</id>
   <author>
     <name><![CDATA[Jun Liu]]></name>
@@ -14,20 +14,14 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Tooyoung]]></title>
+    <title type="html"><![CDATA[又一Python脑残粉]]></title>
     <link href="http://wilsonlj.github.io/blog/2014/03/26/tooyoung/"/>
-    <updated>2014-03-26T00:00:00+01:00</updated>
+    <updated>2014-03-26T12:12:02+01:00</updated>
     <id>http://wilsonlj.github.io/blog/2014/03/26/tooyoung</id>
-    <content type="html"><![CDATA[<hr />
+    <content type="html"><![CDATA[<p>自从用上Python，感觉生活一下子美好了不少，分分钟你的想法就可以实现，而且是最实用的那些，“刷个网页抢个票，下个小片摇个号”，甚至还因为Python和扯淡的研究方向找到了份装逼的实习。Python的好处在于语法的精炼、脚本的便捷、开源库的可扩展性，虽然编译速度和作为大型开发项目的能力欠缺，但是作为家庭小助手那是最适合不过的。这也就是为什么会有这么多编程语言存在的原因，满足不同的需求，每个人对不同任务的学习曲线、规模大小、适用范围、自由程度、敏捷程度、运行速度等需求都不尽相同，因此诞生了满足不同需求的各种工具，各取所需即可，没什么好争的。</p>
 
-<p>layout: post
-title: &ldquo;又一Python脑残粉&rdquo;
-date: 2014-03-26 12:12:02 +0100
-comments: true
-categories:
-&hellip;</p>
+<!-- more -->
 
-<p>自从用上Python，感觉生活一下子美好了不少，分分钟你的想法就可以实现，而且是最实用的那些，“刷个网页抢个票，下个小片摇个号”，甚至还因为Python和扯淡的研究方向找到了份装逼的实习。Python的好处在于语法的精炼、脚本的便捷、开源库的可扩展性，虽然编译速度和作为大型开发项目的能力欠缺，但是作为家庭小助手那是最适合不过的。这也就是为什么会有这么多编程语言存在的原因，满足不同的需求，每个人对不同任务的学习曲线、规模大小、适用范围、自由程度、敏捷程度、运行速度等都不尽相同，因此但是了满足各种需求的工具，各取所需即可，没什么好争的。</p>
 
 <p>今天又闲着做了波大食堂的每日菜单邮件推送并加上自动Google图片搜索来配图，用到了Python的urllib、smtplib、email、json、pygame、Image等库，从爬网页、Google
 API的JSON解析、字体渲染、图片压缩和合成到最后邮件服务器的发送，真是瑞士军刀级的小程序，最后附上初步效果图一张，不断升级中：</p>
