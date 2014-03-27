@@ -4,7 +4,7 @@
   <title><![CDATA[Jun's Burg]]></title>
   <link href="http://wilsonlj.github.io/atom.xml" rel="self"/>
   <link href="http://wilsonlj.github.io/"/>
-  <updated>2014-03-26T12:40:25+01:00</updated>
+  <updated>2014-03-27T20:59:48+01:00</updated>
   <id>http://wilsonlj.github.io/</id>
   <author>
     <name><![CDATA[Jun Liu]]></name>
@@ -27,6 +27,10 @@
 API的JSON解析、字体渲染、图片压缩和合成到最后邮件服务器的发送，真是瑞士军刀级的小程序，最后附上初步效果图一张，不断升级中：</p>
 
 <p><img src="http://wilsonlj.github.io/images/menu.jpg" alt="Menu" /></p>
+
+<p>升级版：图片搜索规则优化、移轴效果加圆角（等于磨皮100次），希望别再有Bug了</p>
+
+<p><img src="http://wilsonlj.github.io/images/menu2.jpg" alt="Menu" /></p>
 
 <p>想想以前做中文处理时候被utf8和gbk搞死了，中文网站的编码各种不统一，甚至爬下来的一个网页里还有几种编码，当时觉得以后的环境不用处理CJK好轻松；现在到了德国才发现还有unicode和äöüß，用Google
 Image API把西兰花土豆活生生变成了牛肉土豆，我还是太年轻了。</p>
