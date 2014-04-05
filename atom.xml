@@ -4,7 +4,7 @@
   <title><![CDATA[Jun's Burg]]></title>
   <link href="http://wilsonlj.github.io/atom.xml" rel="self"/>
   <link href="http://wilsonlj.github.io/"/>
-  <updated>2014-04-05T14:07:47+02:00</updated>
+  <updated>2014-04-05T15:03:51+02:00</updated>
   <id>http://wilsonlj.github.io/</id>
   <author>
     <name><![CDATA[Jun Liu]]></name>
@@ -19,6 +19,8 @@
     <updated>2014-04-05T14:06:31+02:00</updated>
     <id>http://wilsonlj.github.io/blog/2014/04/05/transfer</id>
     <content type="html"><![CDATA[<p>迁移成功！</p>
+
+<p>Dropbox + GitHub 真是好用哭了，开发配置都云端化，迁移环境的成本也越来越低，就像从Windows 8开始系统都和Hotmail账号绑定，如此一来重装系统的配置、App都是从云端同步的，从用户角度来说的确方便不少。对用户来说，这是云。其本质就是用户所有的资源都掌握在里企业的手里，以前用户的文件、配置都需要自己存储、操作、记忆，现在都集体托管在企业端再次通过集约化降低个人使用电脑的成本，从经济角度来说这是好的。但从反垄断和用户权益角度其实也是需要思考的，就像财阀掌握了经济政治的话语权，而企业掌握用户数据就像了解了用户的生活一切，怎么促销、分析、利用就看企业心情了，用户似乎真的变成了肉板上的大餐，任企业宰割。又想用集约化服务，又希望去中心化，哪里有这么好的事？或许这就是互联网的下一个形态，就像资本主义推翻封建集权主义一样。企业再次回到了通过硬件收费，软件免费的制度，谁知道呢，且行且探索。</p>
 ]]></content>
   </entry>
   
