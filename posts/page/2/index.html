@@ -9,7 +9,29 @@
   <meta name="author" content="Jun Liu">
 
   
-  <meta name="description" content="又捣鼓了一天，收获还是很多的，其中最大的莫过于玩透了GitHub，找到了Windows下Shell的替代品——Git Bash！启动迅速（秒杀Powershell），支持Bash常用命令（grep什么的最爱了，秒杀cmd），还能直接Vim（可惜高亮还没整出来）。在Git Bash下uname - &hellip;">
+  <meta name="description" content="1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+#include &lt;iostream&gt;
+using namespace std; int main()
+{ bool b = false; switch (false) { case &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -30,14 +52,58 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://wilsonlj.github.io/posts/page/2/" />
-<meta property="og:description" content="又捣鼓了一天，收获还是很多的，其中最大的莫过于玩透了GitHub，找到了Windows下Shell的替代品——Git Bash！启动迅速（秒杀Powershell），支持Bash常用命令（grep什么的最爱了，秒杀cmd），还能直接Vim（可惜高亮还没整出来）。在Git Bash下uname - &hellip;" />
+<meta property="og:description" content="1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+#include &lt;iostream&gt;
+using namespace std; int main()
+{ bool b = false; switch (false) { case &hellip;" />
 
 <meta property="og:site_name" content="http://wilsonlj.github.io" />
 <meta property="article:author" content="https://plus.google.com/114787528537231301324">
 
 
 
-<meta itemprop="description" content="又捣鼓了一天，收获还是很多的，其中最大的莫过于玩透了GitHub，找到了Windows下Shell的替代品——Git Bash！启动迅速（秒杀Powershell），支持Bash常用命令（grep什么的最爱了，秒杀cmd），还能直接Vim（可惜高亮还没整出来）。在Git Bash下uname - &hellip;" />
+<meta itemprop="description" content="1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+#include &lt;iostream&gt;
+using namespace std; int main()
+{ bool b = false; switch (false) { case &hellip;" />
 
 <!-- Combine multiple fonts into one request -->
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic|Patua+One|Yanone+Kaffeesatz" rel="stylesheet" type="text/css">
@@ -80,6 +146,90 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/15/compiler/">编译随手摘</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-15T15:43:08+01:00" pubdate data-updated="true">Mar 15<span>th</span>, 2014</time>
+        
+         | <a href="/blog/2014/03/15/compiler/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="cp">#include &lt;iostream&gt;</span>
+</span><span class='line'><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">int</span> <span class="n">main</span><span class="p">()</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="kt">bool</span> <span class="n">b</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">switch</span> <span class="p">(</span><span class="kc">false</span><span class="p">)</span>
+</span><span class='line'>    <span class="p">{</span>
+</span><span class='line'>        <span class="k">case</span> <span class="kc">true</span><span class="o">:</span>
+</span><span class='line'>            <span class="kt">int</span> <span class="n">ival</span><span class="p">;</span>
+</span><span class='line'>            <span class="k">break</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">case</span> <span class="kc">false</span><span class="o">:</span>
+</span><span class='line'>            <span class="n">ival</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+</span><span class='line'>            <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">ival</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/03/15/compiler/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
   
   
     <article>
